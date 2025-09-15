@@ -59,6 +59,10 @@ const displayStoredProducts = () =>{
 
 displayStoredProducts();
 
+const handleClick = () => {
+    localStorage.clear();
+}
+
 /**
  * To save Object/array in the Local storage
  * 1. convert the object to JSON string by using JSON.stringify
